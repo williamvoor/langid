@@ -24,3 +24,8 @@ or
 ```
 java -jar target/langid-0.0.1-SNAPSHOT-jar-with-dependencies.jar ENGLISH.TEXT
 ```
+
+Training data
+---
+Texts with training data (i.e. ENGLISH.1, ENGLISH.2) files are located in src/main/resources. New files should be copied to that directory.
+If the new files are of a different language than listed in the Language enumeration, a new constant should be added.
